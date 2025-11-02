@@ -16,6 +16,7 @@ function mincost(arr)
 		
 		
 	}
+	return finalCost;
   
 }
 
