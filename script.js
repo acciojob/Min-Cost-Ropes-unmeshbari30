@@ -4,8 +4,8 @@ function mincost(arr)
 	while (arr.length>1) {
 		let sortedArr = sortArray(arr);
 
-		let first = sortArray[0]
-		let second = sortArray[1]
+		let first = sortedArr[0]
+		let second = sortedArr[1]
 
 		let cost  = first + second;
 		finalCost +=cost;
